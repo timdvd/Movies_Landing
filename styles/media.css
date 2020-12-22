@@ -1,0 +1,89 @@
+/* MAX WIDTHS OF SCREEN */
+
+/* styles for max width of 1024px */
+@media screen and (max-width: 1024px){
+    .form-comment-container{
+        width: 100%;
+    }
+    .container-fluid{
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+}
+/* styles for max width of 960px */
+@media screen and (max-width: 960px){
+    .film-shots{
+        flex-direction: column;
+    }
+    .film-shots li{
+        display: block;
+    }
+}
+/* styles for max width of 767px */
+@media screen and (max-width: 768px){
+    .menu{
+        display: none;
+    }
+    .sidebar{
+		display: block;
+    }
+    .sidebarBtn{
+        display: block;
+    }
+    .film-shots{
+        flex-direction: column;
+    }
+    .film-shots li{
+        display: block;
+    }
+    .movie-image-main{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .banner-info {
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(0%, 0%);
+    }
+}
+/* styles for max width of 556px */
+@media screen and (max-width: 556px){
+
+}
+/* styles for max width of 480px */
+@media screen and (max-width: 480px){
+    .video-player{
+        width: 300px;
+        height: 240px;
+    }
+    .banner-info {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(0%, 0%);
+    }
+}
+
+/* MIN WIDTHS OF SCREEN */
+
+/* styles for min width of 1024px */
+@media screen and (min-width: 1024px){
+
+}
+/* styles for min width of 960px */
+@media screen and (min-width: 960px){
+
+}
+/* styles for min width of 767px */
+@media screen and (min-width: 767px){
+
+}
+/* styles for min width of 556px */
+@media screen and (min-width: 556px){
+
+}
